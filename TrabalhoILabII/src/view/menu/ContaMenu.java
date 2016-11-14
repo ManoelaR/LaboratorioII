@@ -7,7 +7,7 @@ public class ContaMenu {
     public static final int OpcaoTransferencia = 3;
     public static final int OpcaoVoltar = 0;
     
-    public String getOpcoes(){
+    public static String getOpcoes(){
         return ("\n.........................................\n"
                 + "1: Consulta de Saldo\n"
                 + "2: Realizar Depósito\n"
